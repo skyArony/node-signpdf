@@ -1,4 +1,6 @@
-export function plainAddPlaceholder({ pdfBuffer, reason, contactInfo, name, location, signingTime, signatureLength, subFilter, widgetRect, appName, }: InputType): Buffer;
+export function plainAddPlaceholder({ pdfBuffer, reason, contactInfo, name, location, signingTime, signatureLength, subFilter, widgetRect, appName, page, }: InputType & {
+    page: number;
+}): Buffer;
 export type InputType = {
     pdfBuffer: Buffer;
     reason: string;
