@@ -1,2 +1,2 @@
-export * from "./plainAddPlaceholder";
-export * from "./getPageLength";
+export * from './plainAddPlaceholder';
+export * from './getPageLength';
